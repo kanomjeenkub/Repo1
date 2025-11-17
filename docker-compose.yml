@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  hello:
+    image: yourdockerhubusername/hello-devops:latest
+    ports:
+      - "3000:3000"
